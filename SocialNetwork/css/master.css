@@ -1,0 +1,606 @@
+@charset "utf-8";
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(../images/background.png);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#container {
+	float: none;
+	height: 1000px;
+	width: 808px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index:-1;
+}
+#menu {
+	height:50px;
+	width:800px;
+	float: left;
+        background-image:url(../images/menu_bar.png);    
+}
+#header {
+	height: 100px;
+	width: 800px;
+	float: left;
+}
+#leftmenu {
+	height: 600px;
+	width: 200px;
+	float: left;
+}
+#left_menu_upperside{
+	height: 400px;
+	width: 200px;
+	background-image:url(../images/left_upperside.png)
+}
+#main {
+	height: 600px;
+	width: 400px;
+	float: left;
+	border:solid;
+	border-color:#0C9;
+	border-width:0px;
+	margin:3px;
+}
+#main2 {
+	min-height:800px;
+	width: 400px;
+	float: left;
+	border:solid;
+	border-color:#0C9;
+	border-width:0px;
+	margin:3px;
+}
+
+
+#rightmenu {
+	height: 600px;
+	width: 200px;
+	float: left;
+        
+}
+
+#right_menu_content_up{
+	width:200px;
+	
+	float:left;
+	border:solid;
+	border-color:#0F9;
+	border-width:1px;
+	display:none;
+}
+#right_menu_content_down{
+	width:200px;
+	
+	float:left;
+	border:solid;
+	border-color:#0F9;
+	border-width:1px;
+	display:none;
+}
+#right_menu_down_header{
+	width:200px;
+	height:46px;
+	float:left;
+}
+#right_menu_upper_header{
+	width:200px;
+	height:46px;
+	float:left;
+}
+#footer {
+	height: 100px;
+	width: 800px;
+	float: left;
+}
+a:link{ 
+text-decoration: none;
+
+
+
+}
+/*Definisce come si presenta un link al visitatore*/
+a:visited{ 
+    
+    
+    
+}
+/*Come apparirà dopo essere stato già cliccato*/
+a:hover{ 
+text-decoration: underline; 
+
+
+
+}
+/*Come appare al passaggio del mouse*/
+a:focus{ 
+    
+}
+/*Come appare nel momento in cui ci si clicca sopra*/
+a:active{ 
+} 
+#container #main #Registration fieldset p #name {
+	float: right;
+}
+#container #main #Registration fieldset p #surname {
+	float: right;
+}
+#container #main #Registration fieldset p #birthplace {
+	float: right;
+}
+#container #main #Registration fieldset p #email {
+	float: right;
+}
+#container #main #Registration fieldset p #password {
+	float: right;
+}
+#container #main #Registration fieldset p #confirm_password {
+	float: right;
+}
+#container #main #Registration input {
+	font-family: Arial, Helvetica, sans-serif;
+	float: right;
+	margin-right: 20px;
+}
+
+#container #main #Registration #reg {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(../images/transparent_bg.png);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#container #main #Registration #reg .reg_std {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	background-color: #6C9;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+#container #main #Registration #reg .reg_std .inside_leg {
+	background-color: #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+	margin-top: -10px;
+	text-transform: uppercase;
+	border: 1px solid #000;
+	color: #666;
+}
+#container #main #Registration #reg #reg_leg {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 2px;
+	margin-top: -10px;
+	text-transform: uppercase;
+	border: 1px solid #000;
+	color: #666;
+	float: none;
+	background-color: #CCC;
+}
+#container #main #Registration #reg #Register {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	background-color: #CCC;
+	border: 1px solid #000;
+}
+#container #menu #login {
+	font-family: Arial, Helvetica, sans-serif;
+	float: right;
+	margin-top: 6px;
+	margin-right: 26px;
+	color: #666;
+}
+#container #menu #login #logga {
+	background-color: #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #000;
+	color: #666;
+	cursor:pointer;
+}
+#container #menu #loggedin {
+	float:right;
+	margin-right:20px;
+	margin-top:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	font-weight:normal;
+}
+
+
+
+#container #main2 #EditProfile fieldset p #name {
+	float: right;
+}
+#container #main2 #EditProfile fieldset p #surname {
+	float: right;
+}
+#container #main2 #EditProfile fieldset p #birthplace {
+	float: right;
+}
+#container #main2 #EditProfile fieldset p #email {
+	float: right;
+}
+#container #main2 #EditProfile fieldset p #password {
+	float: right;
+}
+#container #main2 #EditProfile fieldset p #confirm_password {
+	float: right;
+}
+#container #main2 #EditProfile fieldset p #studio {
+	float: right;
+}
+#container #main2 #EditProfile fieldset p .hobbies {
+	float: right;
+	margin-right:20px;
+}
+#container #main2 #EditProfile fieldset p #avatar {
+	float: right;
+}
+#container #main2 #EditProfile input {
+	font-family: Arial, Helvetica, sans-serif;
+	float: right;
+	margin-right: 20px;
+}
+
+#container #main2 #EditProfile #edit {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(../images/transparent_bg.png);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#container #main2 #EditProfile #edit .edit_std {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	background-color: #6C9;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+#container #main2 #EditProfile #edit .edit_std .inside_leg {
+	background-color: #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+	margin-top: -10px;
+	text-transform: uppercase;
+	border: 1px solid #000;
+	color: #666;
+}
+#container #main2 #EditProfile #edit #edit_leg {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 2px;
+	margin-top: -10px;
+	text-transform: uppercase;
+	border: 1px solid #000;
+	color: #666;
+	float: none;
+	background-color: #CCC;
+}
+#container #main2 #EditProfile #edit #button {
+	background-color: #CCC;
+	color: #666;
+	border: 1px solid #000;
+}
+#container #main2 #EditProfile #edit #Modify {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	background-color: #CCC;
+	border: 1px solid #000;
+}
+
+.h_lighted {
+	
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-color: #ff0000;
+    border-left-color: #ff0000;
+    border-bottom-color: #ff0000;
+    border-top-color: #ff0000;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+}
+.body_bg {
+	background-image: url(images/background.png);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.ponted_links{
+    cursor:pointer;
+    
+}
+#left_menu_upperside img {
+	float: left;
+	margin-left: 14px;
+	margin-top: 14px;
+}
+
+#left_menu_upperside p #img_avatar {
+	border: 2px solid #0C3;
+	float: left;
+	margin-left: 14px;
+	margin-top: 14px;
+}
+
+.error {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #F00;
+        font-size: 10px;
+}
+#right_menu_down_header a #Vicini_Suggeriti {
+	float: left;
+	margin-left: 17px;
+}
+#right_menu_upper_header a #Amici_Suggeriti {
+	float: left;
+	margin-left: 17px;
+}
+.small_slot {
+	height:75px;
+	width:200px;
+	border: 1px solid #0F9;
+	float: left;
+        z-index:1;
+}
+.small_slot2 {
+	height:75px;
+	width:200px;
+	border: 1px solid #0F9;
+	float: left;
+    z-index:1;
+	background-color:#FFF;
+}
+.slot {
+	height: 106px;
+	width: 200px;
+	border: 1px solid #0F9;
+	float: left;
+}
+
+.big_slot {
+	height: 106px;
+	width: 400px;
+	border: 1px solid #0F9;
+	float: left;
+}
+.empty_slot {
+	height: 108px;
+	width: 200px;
+	border: 0px;
+	float: left;
+}
+.big_empty_slot {
+	height: 108px;
+	width: 400px;
+	border: 0px;
+	float: left;
+}
+.mostra_tutti {
+	height: 28px;
+	width: 200px;
+	border: 1px solid #0F9;
+	float:left;
+}
+.preview_little_img{
+	height:70px;
+	width:70px;
+	border: 2px solid #0C3;
+	float: left;
+	margin-left: 14px;
+	margin-top: 14px;
+	margin-right:7px;
+	/*background-size:68px 68px; 
+	background-color:Transparent;*/
+}
+.preview_mini_img{
+	height:50px;
+	width:50px;
+	border: 2px solid #0C3;
+	float: left;
+	margin-left: 7px;
+	margin-top: 14px;
+	margin-right:7px;
+	/*background-size:68px 68px; 
+	background-color:Transparent;*/
+}
+.testo_semplice{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+}
+.testo_semplice2{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	float: left;
+	margin-left:50px;
+	margin-bottom:90px;
+	margin-top:70px;
+}
+.testo_semplice3{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	padding-left:15px;
+	padding-top:20px;	
+}
+.testo_semplice4{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	padding-left:15px;
+	padding-top:10px;
+        font-size:12px;	
+}
+#name_and_surname{
+        font-family: Arial,Helvetica,sans-serif;
+	color: #000000;
+	padding-left:15px;
+	padding-top:20px;
+        font-size: 22px;
+        font-weight: bold;
+}
+.info{
+       font-size: 14px;
+       color: black;
+       margin-left: 20px;
+       
+}
+.banned{
+       
+   font-size: 14px;
+   color: red;
+   font-family: Arial,Helvetica,sans-serif;
+   font-weight: bolder;
+}
+.friend{
+       
+   font-size: 14px;
+   color: red;
+   font-family: Arial,Helvetica,sans-serif;
+   font-weight: bolder;
+   float:right;
+   margin-right:10px;
+   
+}
+.friendship_info{
+       
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    font-family: sans-serif;
+}
+.accept_refuse_button{
+    width: 20px;
+    float:left;
+    margin-left:105px;
+}
+.ac_button_div{
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+#mini_avatar {
+	border: 2px solid #0C3;
+	float: left;
+	margin-left: 14px;
+	margin-top: 14px;
+	margin-right:10px;
+}
+.text_like_button{
+	background-color:Transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	border:0px;
+}
+.logout_button{
+	background-color: #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #000;
+	color: #666;
+	font-size:13px;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:3px;
+	margin-top:1px;
+	margin-right:8px;
+	margin-bottom:1px;
+	font-weight:normal;
+        text-decoration:underline;
+}
+.richiedi_amicizia{
+	float:right;
+	margin-right:150px;
+}
+.showP{
+	width:400px;
+	height:420px;
+	border: 1px solid #0F9;
+}
+.menu_icons{
+	float:left;
+	width:20px;
+	height:20px;
+	margin-left:20px;
+        cursor:pointer;
+        
+}
+.icon_div{
+	
+	float:left;
+	margin-left:30px;
+	margin-top:9px;
+}
+.notification_div{
+	height:249px;
+	width:200px;
+	z-index:1;
+        background-color:#FFF;
+	position:absolute;
+	margin-left:50px;
+	margin-top:138px;
+	border-left:2px solid #0F9;
+	border-right:2px solid #0F9;
+	border-bottom:2px solid #0F9;
+	display:none;
+}
+.received_fl_div{
+	height:249px;
+	width:200px;
+	z-index:1;
+	background-color:#FFF;
+	position:absolute;
+	margin-left:90px;
+	margin-top:138px;
+	border-left:2px solid #0F9;
+	border-right:2px solid #0F9;
+	border-bottom:2px solid #0F9;
+	display:none;
+}
+.sent_fl_div{
+	height:249px;
+	width:200px;
+	z-index:1;
+	background-color:#FFF;
+	position:absolute;
+	margin-left:130px;
+	margin-top:138px;
+	border-left:2px solid #0F9;
+	border-right:2px solid #0F9;
+	border-bottom:2px solid #0F9;
+	display:none;
+}
+.slide_down_footer{
+	height: 15px;
+	width: 200px;
+}
+.slide_down_main{
+	height:234px;
+	width:200px;
+}
+.search_form_div{
+	float:left;
+	z-index:1;
+	position:absolute;
+	margin-left:250px;
+	margin-top:5px;
+}
+#container #menu #search_form_div #livesearch{
+	background-color:#FFF;
+	width:200px;
+	background-color:#FFF;
+}
+#container #menu #q{ 
+    font-size: 10px;
+    color: #999999;
+}
+.button_generic{
+	background-color: #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #000;
+	color: #666;
+	cursor:pointer;
+	margin-top:4px;
+	margin-bottom:2px;
+	
+}

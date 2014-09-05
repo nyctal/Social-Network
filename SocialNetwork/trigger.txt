@@ -1,0 +1,10 @@
+CREATE TRIGGER aggiungi_notifica
+AFTER UPDATE ON richiestaamiciza
+FOR EACH ROW
+BEGIN
+
+IF NEW.stato='accettata' THEN
+INSERT INTO notifiche (utenteA, utenteB, stato)
+VALUES( NEW.utenteA, NEW.utenteB, 'non letta' );
+
+END;$$

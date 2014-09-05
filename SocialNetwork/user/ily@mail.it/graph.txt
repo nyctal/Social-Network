@@ -1,0 +1,41 @@
+Graph ily_at_mail_it{ 
+ 
+	 { 
+ 
+         node[width =.2,height=.1, shape=ellipse,style=filled,color=Skyblue];
+ily_at_mail_it[label="ily_at_mail_it"] 
+node[width =.3,height=.4, shape=ellipse,style=filled,color=Gray];
+sore_at_mail_it[label="sore_at_mail_it"] 
+node[width =.3,height=.4, shape=ellipse,style=filled,color=Gray];
+matelda_at_mail_it[label="matelda_at_mail_it"] 
+node[width =.3,height=.4, shape=ellipse,style=filled,color=Gray];
+claudia_at_mail_it[label="claudia_at_mail_it"] 
+node[width =.3,height=.4, shape=ellipse,style=filled,color=Gray];
+gabri_at_mail_it[label="gabri_at_mail_it"] 
+node[width =.3,height=.4, shape=ellipse,style=filled,color=Gray];
+rebe_at_mail_it[label="rebe_at_mail_it"] 
+node[width =.3,height=.4, shape=ellipse,style=filled,color=Gray];
+braccio_at_mail_it[label="braccio_at_mail_it"] 
+node[width =.3,height=.4, shape=ellipse,style=filled,color=Gray];
+nico_at_mail_it[label="nico_at_mail_it"] 
+node[width =.3,height=.4, shape=ellipse,style=filled,color=Gray];
+chiara_at_mail_it[label="chiara_at_mail_it"] 
+node[width =.3,height=.4, shape=ellipse,style=filled,color=Gray];
+jack_at_mail_it[label="jack_at_mail_it"] 
+node[width =.3,height=.4, shape=ellipse,style=filled,color=Gray];
+nico_at_mail_it[label="nico_at_mail_it"] 
+node[width =.3,height=.4, shape=ellipse,style=filled,color=Gray];
+}
+{ 
+ edge[len=.3]; 
+"ily_at_mail_it"--"sore_at_mail_it"; 
+"ily_at_mail_it"--"nico_at_mail_it"; 
+"sore_at_mail_it"--"matelda_at_mail_it"; 
+"sore_at_mail_it"--"claudia_at_mail_it"; 
+"sore_at_mail_it"--"gabri_at_mail_it"; 
+"sore_at_mail_it"--"rebe_at_mail_it"; 
+"sore_at_mail_it"--"braccio_at_mail_it"; 
+"sore_at_mail_it"--"nico_at_mail_it"; 
+"sore_at_mail_it"--"chiara_at_mail_it"; 
+"sore_at_mail_it"--"jack_at_mail_it"; 
+} overlap=false;};
